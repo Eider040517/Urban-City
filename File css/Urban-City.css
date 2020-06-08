@@ -378,6 +378,7 @@ body {
 
 }
 .grid-img {
+    position: relative;
     width: 320px;
     height: 300px;
     display: flex;
@@ -385,22 +386,15 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
-    background-size: cover;
-    background-position: center;
 }
-.city-1{background-image: url(IMG/New-York-grid.jpg);}
-.city-2{background-image: url(IMG/Singapour-grid.jpg);}
-.city-3{background-image: url(IMG/tokyo-grid.jpg);}
-.city-4{background-image: url(IMG/dubai-grid.jpg);}
-.city-5{background-image: url(IMG/Panama-city-grid.jpg);}
-.city-6{background-image: url(IMG/mexico-city-grid.jpg);}
-.city-7{background-image: url(IMG/Brazil-grid.jpg);}
-.city-8{background-image: url(IMG/China-city-grid.jpg);}
-.city-9{background-image: url(IMG/Madrid-city-grid.jpg);}
+.grid-img img {
+    width: 100%;
+    height: 100%;
+}
 
 .grid {
     display: none;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     flex-direction: column;
